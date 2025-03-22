@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body img="student.web">
+    <div class="container">
+        <h3>staff View</h3>
+        <button onclick="showAttendance()">View Attendance</button>
+        <button onclick="exportToExcel()">Download Excel</button>
+        <table id="attendanceTable">
+            <tr>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+        </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
